@@ -1,0 +1,8 @@
+useDynLib(rmp)
+import(stats)
+import(utils)
+export(dpmpoiss)
+export(dpmrg)
+export(dp.post.est)
+S3method(print, rmpobject)
+S3method(summary, rmpobject)

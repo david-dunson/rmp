@@ -1,0 +1,17 @@
+7532811f00420416ff4fb7236ab7cb0f *DESCRIPTION
+3996e7c16bfb96fad295ee425815cb4d *Makevars
+2aa3cd11664c25a3238b0c215c081dbf *NAMESPACE
+ac53cfd5490faa6e7690c4c7e556512e *R/dp.post.est.R
+bdf8256fb943b060b1f83370bf80775b *R/dpmpoiss.R
+7516f078db851d871d37ba2042ed5be6 *R/dpmrg.R
+ba625f57d9306c276324d716ca97e395 *R/generic.R
+80e04dc454e9ef3fa9778c1abdc7ec12 *data/ethylene.rda
+02658e9c5bee44b9b3d1b26577814525 *future.txt
+2190f314141e2195c07162d9cdd7ad09 *inst/CITATION
+dd4648236ad225330ca704f2eb5daa22 *man/dp.post.est.Rd
+ab6c478533b2e35ef81d4a674579f61c *man/dpmpoiss.Rd
+f2c12e6bced8a1f759240b3814723920 *man/dpmrg.Rd
+a7143c09736aa0ff8f4d8d9482188a1b *man/ethylene.Rd
+3996e7c16bfb96fad295ee425815cb4d *src/Makevars
+59186748b58b25a14e0d953e61113640 *src/dpmpois.c
+18a329852357cd658b21600aa869675b *src/rmg.c
