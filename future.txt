@@ -1,0 +1,2 @@
+04/15/2013
+Future version of the package will implent also other kind of rounded kernels.
