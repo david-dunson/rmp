@@ -2,11 +2,12 @@ citHeader("To cite the rmp package in publications use:")
 
 if(!exists("meta") || is.null(meta)) meta <- packageDescription("rmp")
 
-citEntry(entry="manual", title = paste("{R} package rmp: Rounded Mixture Package"),
-         author = personList(as.person(c("A. Canale", "N. Lunardon"))),
-         year         = substr(meta$Date, 1, 4),
-     textVersion = 
-         paste("Canale, A., Lunardon, N., (", substr(meta$Date, 1, 4), "). ",
+citEntry(entry = "manual",
+  title        = "{R} package rmp: {R}ounded {M}ixture {P}ackage",
+  author       = as.person("Antonio Canale"),
+  year         = "2015",
+  textVersion  =
+  paste("Canale, A., (", substr(meta$Date, 1, 4), "). ",
                "R package 'rmp': Rounded Mixture Package",
 	       " (version ", meta$Version, "). ",
                sep="")

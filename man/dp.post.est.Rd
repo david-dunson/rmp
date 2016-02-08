@@ -23,7 +23,10 @@ DP precision parameter
 Mean parameter for the Poisson base measure.
 }
 }
-
+\details{Performs probability mass function estimation under th following model
+\deqn{y_i \mid P \sim  P, i=1, \dots, n}{y_i | P ~ P, i=1, ..., n}
+\deqn{P \sim DP(\alpha, P_0),}{P ~ Pi(\alpha, P_0),}
+where \eqn{P_0} is Poisson with mean \code{lambda}.}
 \value{
 A vector of size \code{length(x)} containing the probability masses 
 }
@@ -43,7 +46,3 @@ z <- tapply(ethylene$dose,FUN=mean,INDEX=ethylene$id)
 y0  <- y[z==0]
 pmf.control = dp.post.est(0:30, y0, alpha = 1)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

@@ -1,0 +1,5 @@
+R package 'rmp' history file
+-------------------------------
+2010-2012 : built private versions
+2013-04-17: 1.0   first version uploaded on CRAN
+2016-02-05: 2.0   second version includes: generalization to the two paramter Posson-Diriclet prior, hyperpriors for the base measures parameters, implementation of different sampling algorithms (slice sampling and polya-urn), and improved plotting and post-processing tools
